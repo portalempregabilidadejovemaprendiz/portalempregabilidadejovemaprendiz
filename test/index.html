@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Avaliação de Excel</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <div>
+        <div class="container">
+            <div style="padding: 5% 0">
+                <div class="row">
+                    <div class="col-md-4"><img style="margin-left:250px" src="assets/logo.png" alt="" width="150px"
+                            height="150px"></div>
+                    <div class="col-md-4 text-center">
+                        <h1 style="padding-top:28px">Avaliação de Nível de Excel</h1>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+    <div style="background-color: #b3dcfb; padding: 20px 0px; padding-top: 20px;">
+        <div class="container">
+            <div class="text-center">
+                <h3>Um aluno está fazendo uma tabela com diversos dados para uma apresentação escolar, porém, todos os
+                    dados
+                    utilizarão a mesma fórmula. Qual opção lhe trará agilidade para esta tarefa?</h3>
+            </div>
+            <fieldset id="question1">
+                <div class="text-center" style="width: 100%; margin-top:40px">
+                    <button id="btn-1-a" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                        onclick="wrong(this.id)"><span>Tabela</span></button>
+                    <button id="btn-1-b" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                        onclick="correct(this.id)"><span>Alça de
+                            Preenchimento</span></button>
+                    <button id="btn-1-c" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                        onclick="wrong(this.id)"><span>Auto-Soma</span></button>
+                    <button id="btn-1-d" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                        onclick="wrong(this.id)"><span>Alça de
+                            Descanso</span></button>
+                    <button id="btn-1-e" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                        onclick="wrong(this.id)"><span>Pincel de
+                            Formatação</span></button>
+                </div>
+
+        </div>
+    </div>
+
+    <div class="container text-center" style="padding: 20px 0">
+        <div class="text-center">
+            <h3 style="margin-bottom: 20px;">A figura a seguir foi extraída de uma planilha do MS-Excel. Ela
+                representa
+                o cálculo de um boleto
+                bancário, onde o usuário deve lançar os valores corretamente para obter o valor a pagar.</h3>
+            <img src="assets/5-52069dea8f.jpg" alt="">
+            <h3 style="margin-top: 20px;">Após lançar o "Valor do documento" (célula B1) de R$ 100,00 e o "Desconto"
+                (célula B2) de R$10,00, o
+                usuário percebeu que o segundo valor foi colocado no campo errado: deveria ter lançado em Juros
+                (B4),
+                uma vez que o pagamento está atrasado. O usuário tentou então contornar o erro recortando o
+                lançamento
+                na célula B2 e colando na célula B4 (utilizando por exemplo, Ctrl X e Ctrl V). O resultado obtido em
+                B7
+                foi:</h3>
+        </div>
+        <fieldset id="question2">
+            <div class="text-center" style="width: 100%; margin-top:40px">
+                <button id="btn-2-a" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                    onclick="correct(this.id)"><span>R$110,00</span></button>
+                <button id="btn-2-b" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                    onclick="wrong(this.id)"><span>R$90,00</span></button>
+                <button id="btn-2-c" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                    onclick="wrong(this.id)"><span>R$100,00</span></button>
+                <button id="btn-2-d" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                    onclick="wrong(this.id)"><span>Indeterminado</span></button>
+                <button id="btn-2-e" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                    onclick="wrong(this.id)"><span>#REF!</span></button>
+            </div>
+
+    </div>
+    </div>
+
+
+
+    <div style="background-color: #b3dcfb; padding: 20px 0px; margin-top: 20px;">
+        <div class="container">
+            <div class="text-center">
+                <h3>No Microsoft Excel é possível criar planilhas utilizando recursos avançados como:</h3>
+            </div>
+            <fieldset id="question3">
+                <div class="text-center" style="width: 100%; margin-top:40px">
+                    <button id="btn-3-a" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                        onclick="wrong(this.id)"><span>Macros e Mala
+                            Direta</span></button>
+                    <button id="btn-3-b" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                        onclick="wrong(this.id)"><span>Etiquetas, Formulários e
+                            Filtros</span></button>
+                    <button id="btn-3-c" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                        onclick="wrong(this.id)"><span>Mala Direta, Etiquetas,
+                            Máscaras de Entrada</span></button>
+                    <button id="btn-3-d" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                        onclick="wrong(this.id)"><span>Mala Direta, Formulários e
+                            Macros</span></button>
+                    <button id="btn-3-e" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                        onclick="correct(this.id)"><span>Formulários, Filtros e Macros</span></button>
+                </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="container text-center" style="padding: 20px 0">
+        <div class="text-center">
+            <h3>Um estudante recebeu uma planilha com diversos carros separados por suas respectivas marcas. Ele
+                precisa
+                visualizar somente as marcas que mais lhe agradam. Qual a ferramenta que pode lhe auxiliar quanto a
+                isto?</h3>
+        </div>
+        <fieldset id="question4">
+            <div class="text-center" style="width: 100%; margin-top:40px">
+                <button id="btn-4-a" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                    onclick="wrong(this.id)"><span>Selecionar</span></button>
+                <button id="btn-4-b" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                    onclick="wrong(this.id)"><span>Mesclar</span></button>
+                <button id="btn-4-c" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                    onclick="correct(this.id)"><span>Filtro</span></button>
+                <button id="btn-4-d" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                    onclick="wrong(this.id)"><span>Inserir</span></button>
+                <button id="btn-4-e" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                    onclick="wrong(this.id)"><span>Dados Selecionados</span></button>
+            </div>
+
+    </div>
+    </div>
+
+
+    <div style="background-color: #b3dcfb; padding: 20px 0px; margin-top: 20px;">
+        <div class="container">
+            <div class="text-center">
+                <h3>Um determinado colégio utiliza uma planilha que servirá para lançamento de dados do boletim
+                    escolar.
+                    Dentre as funções utilizadas, uma delas precisa retornar a resposta por condições
+                    pré-estabelecidas.
+                    Qual função adequada para esse processo?</h3>
+            </div>
+            <fieldset id="question5">
+                <div class="text-center" style="width: 100%; margin-top:40px">
+                    <button id="btn-5-a" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                        onclick="wrong(this.id)"><span>ProcV</span></button>
+                    <button id="btn-5-b" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                        onclick="wrong(this.id)"><span>SomaSe</span></button>
+                    <button id="btn-5-c" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                        onclick="wrong(this.id)"><span>ProcH</span></button>
+                    <button id="btn-5-d" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                        onclick="correct(this.id)"><span>Se</span></button>
+                    <button id="btn-5-e" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                        onclick="wrong(this.id)"><span>Cont.Se</span></button>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+
+
+
+    <div class="container text-center" style="padding: 20px 0">
+        <div class="text-center">
+            <h3>Em uma planilha do Microsoft Excel, na sua configuração padrão, tem-se na célula C1 afórmula =A1 +
+                B$1.
+                Ao ser copiada para o bloco C2:D2, a célula:</h3>
+        </div>
+        <fieldset id="question6">
+            <div class="text-center" style="width: 100%; margin-top:40px">
+                <button id="btn-6-a" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                    onclick="wrong(this.id)"><span>C2 ficará com a fórmula =A2 +
+                        B$2</span></button>
+                <button id="btn-6-b" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                    onclick="correct(this.id)"><span>C2 ficará com a
+                        fórmula =A2 + B$1.</span></button>
+                <button id="btn-6-c" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                    onclick="wrong(this.id)"><span>D2 ficará com a fórmula =A3 +
+                        D$1</span></button>
+                <button id="btn-6-d" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                    onclick="wrong(this.id)"><span>C2 ficará com a fórmula =A3 +
+                        B$2</span></button>
+                <button id="btn-6-e" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                    onclick="wrong(this.id)"><span>D2 ficará com a fórmula =B2 +
+                        B$1</span></button>
+            </div>
+        </fieldset>
+    </div>
+    </div>
+
+
+
+    <div style="background-color: #b3dcfb; padding: 20px 0px; margin-top: 20px;">
+        <div class="container">
+            <div class="text-center">
+                <h3>Assinale as alternativas corretas: Quanto às funcionalidades do Microsoft Excel, é correto
+                    afirmar
+                    que:</h3>
+            </div>
+            <fieldset id="question7">
+                <div class="text-center" style="width: 100%; margin-top:40px">
+                    <button id="btn-7-a" class="btn btn-secondary" style="width: 100%; margin:10px 0"
+                        onclick="checkCorrect(this.id)"><span>Disponibiliza diversos tipos de
+                            gráficos, sendo eles: colunas, linhas, pizza entre outros.</span></button>
+                    <button id="btn-7-b" class="btn btn-secondary" style="width: 100%; margin:10px 0"
+                        onclick="checkCorrect(this.id)"><span>Permite ao usuário alterar a
+                            estrutura de uma planilha existente inserindo um qualquer lugar da mesma novas colunas e/ou
+                            novas linhas.</span></button>
+                    <button id="btn-7-c" class="btn btn-secondary" style="width: 100%; margin:10px 0"
+                        onclick="checkCorrect(this.id)"><span>Podemos criar um gráfico
+                            utilizando dados de diversas guias.</span></button>
+                    <button id="btn-7-d" class="btn btn-secondary" style="width: 100%; margin:10px 0"
+                        onclick="checkWrong(this.id)"><span>Não há
+                            limites de linhas e colunas.</span></button>
+                    <button id="btn-7-e" class="btn btn-secondary" style="width: 100%; margin:10px 0"
+                        onclick="checkCorrect(this.id)"><span>Permite ao usuário configurar o
+                            conteúdo de uma célula, posicionando o texto de diversas maneiras.</span></button>
+                    <button id="btn-7-f" class="btn btn-primary" style="width: 50%; margin:10px 0"
+                        onclick="checkAnswer(correctOnes, wrongOnes)"><span>Submit</span></button>
+
+
+                </div>
+            </fieldset>
+        </div>
+    </div>
+
+
+
+    <div class="container text-center" style="padding: 20px 0">
+        <div class="text-center">
+            <h3>Quais das opções abaixo não são tipos de gráficos?</h3>
+        </div>
+        <fieldset id="question8">
+            <div class="text-center" style="width: 100%; margin-top:40px">
+                <button id="btn-8-a" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                    onclick="wrong(this.id)"><span>Rosca, bolhas e
+                        radar.</span></button>
+                <button id="btn-8-b" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                    onclick="correct(this.id)"><span>Aramado, curvas
+                        e ascendente.
+                    </span></button>
+                <button id="btn-8-c" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                    onclick="wrong(this.id)"><span>Barra, área e linha.
+                    </span></button>
+                <button id="btn-8-d" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                    onclick="wrong(this.id)"><span>Linha, bolhas e pizza.
+                    </span></button>
+                <button id="btn-8-3" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                    onclick="wrong(this.id)"><span>Pizza, Barra e
+                        Linha.</span></button>
+            </div>
+        </fieldset>
+    </div>
+    </div>
+
+
+    <div style="background-color: #b3dcfb; padding: 20px 0px; margin-top: 20px;">
+        <div class="container">
+            <div class="text-center">
+                <h3>Qual a melhor definição para o Microsoft Excel?</h3>
+            </div>
+            <fieldset id="question9">
+            <div class="text-center" style="width: 100%; margin-top:40px">
+                    <button id="btn-9-a" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                        onclick="wrong(this.id)"><span>Gerenciador de tabelas
+                            complexas.</span></button>
+                    <button id="btn-9-b" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                        onclick="wrong(this.id)"><span>Armazenador de dados complexos
+                            para criação de gráficos.</span></button>
+                    <button id="btn-9-c" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                        onclick="correct(this.id)"><span>Grupo de
+                            planilhas eletrônicas destinadas a realizar cálculos básicos e avançados.</span></button>
+                    <button id="btn-9-d" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                        onclick="wrong(this.id)"><span>Software destinado à criação de
+                            gráficos.</span></button>
+                    <button id="btn-9-e" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                        onclick="wrong(this.id)"><span>Grupo de planilhas eletrônicas
+                            destinadas a realizar cálculos básicos apenas.</span></button>
+            </div>
+            </fieldset>
+        </div>
+    </div>
+
+
+
+    <div class="container text-center" style="padding: 20px 0">
+        <div class="text-center">
+            <h3>Qual das opções abaixo está correta?</h3>
+        </div>
+        <fieldset id="question10">
+            <div class="text-center" style="width: 100%; margin-top:40px">
+                <button id="btn-10-a" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                    onclick="wrong(this.id)"><span>Permite construir gráficos variados
+                        do mesmo tipo</span></button>
+                <button id="btn-10-b" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                    onclick="wrong(this.id)"><span>No Excel, são
+                        disponibilizados também modelos de calendários entre outros documentos.
+                    </span></button>
+                <button id="btn-10-c" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                    onclick="wrong(this.id)"><span>É possível proteger uma planilha ou uma pasta do Microsoft Excel.
+                    </span></button>
+                <button id="btn-10-d" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                    onclick="wrong(this.id)"><span>Permite inserir comentários e validação de dados em qualquer tipo de
+                        planilha, desde que julgue necessário.
+                    </span></button>
+                <button id="btn-10-e" class="btn btn-primary" style="width: 100%; margin:10px 0"
+                    onclick="correct(this.id)"><span>Todas as questões estão corretas.</span></button>
+            </div>
+        </fieldset>
+
+        <div style="margin-top: 80px;">
+            <button class="btn btn-warning" onClick="result()">Conferir resultado</button>
+        </div>
+    </div>
+
+
+    <div class="container text-center" style="padding-bottom: 400px;">
+        <h1>Seu resultado é:</h1>
+        <h1 style="font-size: 200px;" id="result"></h1>
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
