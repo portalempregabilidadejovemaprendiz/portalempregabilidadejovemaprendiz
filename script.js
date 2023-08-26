@@ -1,8 +1,8 @@
 var links = [
-    "https://w.app/ohMKbu",
-    "https://w.app/0NH18r",
-    "https://w.app/f1aVEP",
-    "https://w.app/iCpEHO"];
+    "https://wa.me/19971207582",
+    "https://wa.me/19983031454",
+    "https://wa.me/19997128243",
+    "https://wa.me/19998942458"];
 
     function openWpp() {
         var ranIdx = Math.random()*links.length;
